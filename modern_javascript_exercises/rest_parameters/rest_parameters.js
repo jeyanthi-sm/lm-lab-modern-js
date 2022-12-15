@@ -8,7 +8,5 @@ function add(...args) {
 
 add(1, 2, 3, 4, 5);
 
-//module.exports = add;
-
-//export  {add};
+export  {add};
 
