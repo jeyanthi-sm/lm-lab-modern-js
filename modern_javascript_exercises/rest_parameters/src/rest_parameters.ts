@@ -1,6 +1,6 @@
 // Instructions can be found in rest_parameters.md
 
-function add(...args) {
+function add(...args:any) {
   let total = 0;
   for (const arg of args) total += arg;
   return total;

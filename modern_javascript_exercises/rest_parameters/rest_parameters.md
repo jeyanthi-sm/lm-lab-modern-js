@@ -16,7 +16,7 @@ number of arguments and fix the failing test.
 
 To run the tests:
 
-            npm test rest_parameters.test.js
+            npm test rest_parameters.test.ts
 
 Hint: make sure you're in the correct folder before running these commands. You will also need to `console.log()` your function to see any output.
 
