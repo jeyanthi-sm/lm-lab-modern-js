@@ -6,7 +6,7 @@ function count() {
   for (let i = 0; i < 5; i++) {
     console.log(i + " inside the forLoop");
   }
-  let i;
+  let i:any;
   console.log(i + " outside the forLoop");
 }
 
@@ -15,6 +15,6 @@ function count() {
 // Another problem with var is that we can overwrite it, like this:
 
 let greeting = "Hello 😘";
- greeting = "Not today, pal! 😤";
+greeting = "Not today, pal! 😤";
 
  console.log(greeting) // <----- uncomment me!
