@@ -10,6 +10,6 @@ Can you refactor this function so it returns the string using a template literal
 
 To run the tests:
 
-            npm test template_literals.test.js
+            npm test template_literals.test.ts
 
 Hint: make sure you're in the correct folder before running these commands.
