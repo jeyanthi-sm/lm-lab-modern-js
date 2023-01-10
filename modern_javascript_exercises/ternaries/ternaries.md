@@ -8,6 +8,6 @@ Whatever you do, make sure the tests still pass! 👮
 
 To run the tests:
 
-            npm test ternaries.test.js
+            npm test ternaries.test.ts
 
 Hint: make sure you're in the correct folder before running these commands.
