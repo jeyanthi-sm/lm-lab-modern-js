@@ -7,7 +7,7 @@
 
 const people = ["Harry", "Hermione", "Ron"];
 
-function logPerson(person) {
+function logPerson(person:any) {
   console.log("The person is " + person);
 }
 
@@ -23,9 +23,7 @@ const performLogPerson = logPerson;
 // Write a version of logPerson() as an Arrow Function and store it in a variable called arrowVersionOfLogPerson
 
 
-const arrowfunction = (person) => console.log("The person is " + person);
-
-const arrowfunction2 = person => console.log("The person is " + person);
+const arrowfunction = (person:any) => console.log("The person is " + person);
 
 
 // Anonymous Arrow Functions

@@ -38,7 +38,7 @@ Remembering that declarative programming means "abstracting away complexity", co
 
 To run the tests:
 
-            npm test imperative_vs_declarative.test.js
+            npm test imperative_vs_declarative.test.ts
 
 💡 Hint: make sure you're in the correct folder before running this command! 😉
 
