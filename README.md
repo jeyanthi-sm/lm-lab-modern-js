@@ -1,10 +1,42 @@
-# Modern JavaScript
+# Updated to TypeScript from Modern JavaScript
 
-🤖 Modern JavaScript: In-session Refactoring Lab
+🤖 Updated to TypeScript from Modern JavaScript: In-session Refactoring Lab
 
 ## Instructions
+JavaScript to TypeScript changes in Package.json
 
-On your own, in groups or in pairs, work through the JavaScript files and refactor them using the suggested modern JavaScript method specified in the document.
+Run this command
+npm i -D typescript --devdependencies
+This command creates DEV dependencies in package.json for typescript
+
+npx tsc --init 
+The above command creates tsconfig.json
+
+Update tsconfig.json for module to use ECSA instead of common modules
+
+Include is updated to refer to src folders
+Exclude is to include node_moduoles and devdependencies
+
+git-ignore is updated to ignore the build directory
+
+Package.json is updated for build.tsc
+
+
+Then run the command 
+
+npm run build
+
+
+Then run this command to include the jest files for typescript
+
+npm i -D jest ts-jest @types/jest
+
+To configure jest.config.ts files
+
+Run this command
+npx ts-jest config:init
+
+Now the package.json should have scripts:jest for the test cases to run
 
 You will need to fork and clone this repository to work through the solutions.
 
