@@ -10,6 +10,6 @@ Can you shorten this function, using a default parameter?
 
 To run the tests:
 
-            npm test default_parameters.test.js
+            npm test default_parameters.test.ts
 
 Hint: make sure you're in the correct folder before running this command

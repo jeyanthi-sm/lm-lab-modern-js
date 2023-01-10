@@ -8,6 +8,6 @@ Using "Destructuring", can you refactor the code `sequence()` function so it use
 
 To run the tests:
 
-            npm test destructuring_arrays.test.js
+            npm test destructuring_arrays.test.ts
 
 Hint: make sure you're in the correct folder before running this command
