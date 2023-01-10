@@ -6,6 +6,6 @@ Using Spread Syntax, update the `allTheNumbers()` function so it returns an arra
 
 To run the test:
 
-            npm test spread_syntax.test.js
+            npm test spread_syntax.test.ts
 
 Hint: make sure you're in the correct folder before running this command 👍
